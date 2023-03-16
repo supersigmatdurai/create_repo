@@ -1,0 +1,2032 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "description": "Code With Prince",
+      "version": "4.11.1",
+      "title": "Code With Prince velaiapp"
+     
+    },
+    "tags": [
+        {
+          "name": "velai API",
+          "description": "Test API"
+        }
+      ],
+      "servers": [
+        {
+        "url": "/"
+        },{
+            "url":"/http"
+        }
+    ],
+    "components2": {
+        "schemas": {
+        "TodoList": {
+            "type": "object",
+            "properties": {
+                "user_id": {
+                "type": "integer"
+                },
+                "education":{
+                    "type":"string"
+                }
+                   
+            }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                    "type" : "integer"
+                    }
+                }
+            }
+               
+        }
+    },
+    "components": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "number": {
+                    "type": "string"
+                    }
+                   
+                }
+            },
+            "user_id":{
+                "type" : "integer",
+                "properties" : {
+                    "user_id" : {
+                        "type" : "integer"
+                    }
+                }
+            },
+            "update":{
+                "type": "object",
+                "properties" :{
+                  "username": {
+                      "type": "string"
+                      },"emailid":{
+                        "type":"string"
+                      },"dob":{"type":"string"},"gender":{"type":"string"},"additionalnumber":{
+                        "type":"string"
+                      },"proof":{"type":"string"},"resume":{"type":"string"},
+                      "profilepic":{"type":"string"
+                    }
+                      
+                }
+            }
+               
+        }
+    },
+    "components1": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "number": {
+                    "type": "string"
+                    },
+                    "otp":{
+                        "type":"string"
+                    }
+                       
+                }
+            },
+            "update":{
+                "type": "object",
+                "properties" :{
+                    "username": {
+                        "type": "string"
+                        },"userType":{"type":"string"}
+                          
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+                 
+        }
+    },
+    "components3": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                    "type": "integer"
+                    },
+                    "experience":{
+                    "type":"string"
+                    }
+                           
+                }
+            },
+            "Id":{
+            "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+                       
+        }
+    },
+    "components4": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                    "type": "integer"
+                    },
+                    "file":{
+                    "type":"file"
+                    }
+                                
+                               
+                }
+            },
+            "Id":{
+            "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+                           
+        }
+    },
+    "components5": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "job_title":{
+                        "type":"string"
+                    },
+                    "Salary":{
+                        "type":"string"
+                    },
+                    "location":{
+                        "type":"string"
+                    },
+                    "per":{
+                        "type":"string"
+                    },
+                    "pic":{
+                    "type":"string"
+                    },
+                    "time":{
+                        "type":"string"
+                    },
+                    "isallow_tocall":{
+                        "type":"boolean"
+                    },
+                    "latitude":{
+                        "type":"string"
+                    },
+                    "longitude":{
+                        "type":"string"
+                    }
+                                    
+                                    
+                                   
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+                               
+        }
+    },
+    "components6": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                        "user_id": {
+                            "type": "integer"
+                        },
+                        "job_title":{
+                            "type":"string"
+                        },
+                        "company_name":{
+                            "type":"string"
+                        },
+                        "location":{
+                        "type":"string"
+                        },
+                        "Duration":{
+                            "type":"string"
+                        },
+                        "job_description":{
+                            "type":"string"
+                        },
+                        "jobpic":{
+                            "type":"string"
+                        },
+                        "workspace":{
+                            "type":"string"
+                        },
+                        "Education":{
+                            "type":"string"
+                        },
+                        "isallow_tocall":{
+                            "type":"boolean"
+                        },
+                                        
+                        "mobile_number":{
+                            "type":"string"
+                        },
+                        "email":{
+                            "type":"string"
+                        },
+                        "Salary":{
+                            "type":"string"
+                        }
+             
+                }
+            }
+                              
+                                   
+        }
+    },
+    "components60": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "username":{
+                        "type":"string"
+                    },
+                    "companyname":{
+                        "type":"string"
+                    },
+                    "location":{
+                        "type":"string"
+                    },
+                    "number":{
+                        "type":"string"
+                    },
+                    "proof":{
+                        "type":"string"
+                    },
+                                           
+                                            
+                    "emailid":{
+                        "type":"string"
+                    },
+                    "designation":{"type":"string"},
+                    "gender":{
+                        "type":"string"
+                    }
+                                            
+                                            
+                                           
+                }
+            }
+                                 
+                                       
+        }
+    },
+    "components62": {
+        "schemas": {
+             "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "userType":{
+                        "type":"string"
+                    }
+                                           
+                }
+            }
+                                        
+        }
+    },
+    "components70": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "post_id":{
+                        "type":"integer"
+                    },
+                    "table_name":{
+                        "type":"string"
+                    }
+                                               
+                                           
+                }
+            }
+                                        
+        }
+    },
+
+
+    "components61": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "username":{
+                        "type":"string"
+                    },
+                                               
+                    "location":{
+                        "type":"string"
+                    },
+                    "number":{
+                        "type":"string"
+                    },
+                    "proof":{
+                        "type":"string"
+                    },
+                    "dob":{
+                        "type":"string"
+                    },
+                    "gender":{
+                        "type":"string"
+                    },
+                    "resume":{"type":"string"},
+                                               
+                                                
+                    "emailid":{
+                        "type":"string"
+                    }                                              
+                                               
+                }
+            },
+            
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+               
+        }
+    },
+    "components7": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                        "type": "integer"
+                    },
+                    "l_p_id":{
+                        "type":"integer"
+                    }
+                   
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "user_id" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+             
+        }
+    },
+    
+    "components8": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                    "type": "integer"
+                    },
+                    "s_p_id":{
+                        "type":"integer"
+                    }
+                   
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+             
+        }
+    },
+    "components9": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                    "type": "integer"
+                    },
+                    "s_id":{
+                        "type":"integer"
+                    } 
+                   
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+             
+        }
+    },
+    "components10": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id": {
+                    "type": "integer"
+                    },
+                    "l_id":{
+                        "type":"integer"
+                    } 
+                   
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+             
+        }
+    },
+    "components11": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "page": {
+                    "type": "integer"
+                    }
+                    
+               
+                }
+            },
+            "Id":{
+                "type" : "integer",
+                "properties" : {
+                    "ID" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+             
+        }
+    },
+    "rentalsee1": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "post_id":{"type":"integer"},"selectedTools":{"type":"string"},"user_id":{"type":"integer"}   
+                }
+            },
+            "product_type":{
+                "type" : "string",
+                "properties" : {
+                    "product_type" : {
+                        "type" : "string"
+                    }
+                }
+            }
+        }
+    },
+    "rentalsee2": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "username":{"type":"string"},"number":{"type":"string"},"user_id":{"type":"integer"},
+                    "emailid":{"type":"string"},"proof":{"type":"string"},"location":{"type":"string"},
+                    "gender":{"type":"string"},"profilepic":{"type":"string"}
+  
+                }
+            },
+            "user_id":{
+                "type" : "string",
+                "properties" : {
+                    "user_id" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+        }
+    },
+    "rentalsee3": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "user_id":{"type":"integer"},"c_h_id":{"type":"integer"}
+
+                    
+                   
+                }
+            },
+            "id":{
+                "type" : "integer",
+                "properties" : {
+                    "id" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+        }
+    },
+    "rentalsee4": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "product_name":{"type":"string"},"number":{"type":"string"},"user_id":{"type":"integer"},
+                    "District":{"type":"string"},"state":{"type":"string"},"country":{"type":"string"},
+                    "product_type":{"type":"string"},"pic":{"type":"string"},"product_fees":{"type":"string"},
+                    "product_fees_hour":{"type":"string"},"product_description":{"type":"string"},"address":{"type":"string"},
+                    "Duration2":{"type":"string"},"Duration":{"type":"string"}
+
+                    
+                   
+                }
+            },
+            "user_id":{
+                "type" : "string",
+                "properties" : {
+                    "user_id" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+        }
+    },
+    "rentalsee5": {
+        "schemas": {
+            "TodoList": {
+                "type": "object",
+                "properties": {
+                    "rent_id":{"type":"integer"},"user_id":{"type":"integer"}   
+                }
+            },
+            "user_id":{
+                "type" : "string",
+                "properties" : {
+                    "user_id" : {
+                        "type" : "integer"
+                    }
+                }
+            }
+        }
+    },
+            
+
+    "paths": {
+        "/api/sms": {
+            "post": {
+            "tags": [
+                "post  API"
+            ],
+            "summary": "send otp sms",
+            "requestBody": {
+            "description": "Post New todo To Database",
+            "required": true,
+            "content": {
+                "application/json": {
+                "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }
+    
+            }
+
+        },
+        "/sms/verification": {
+            "post": {
+            "tags": [
+                "post  API"
+            ],
+            "summary": "otp verification",
+            "requestBody": {
+            "description": "Post New todo To Database",
+            "required": true,
+            "content": {
+                "application/json": {
+                "schema": {
+                    "$ref": "#/components1/schemas/TodoList"
+                    }
+                }
+            }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }}   
+        },
+        "/api/seeker_userinfo_details": {
+            "post": {
+            "tags": [
+                "post  API"
+            ],
+            "summary": "job_seeker_info",
+            "requestBody": {
+            "description": "Post New todo To Database",
+            "required": true,
+            "content": {
+                
+                "application/json": {
+                "schema": {
+                    "$ref": "#/components61/schemas/TodoList"
+                    }
+                }
+            }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }}                        
+        },
+        
+            "/api/user/education": {
+                "post": {
+                "tags": [
+                    "post  API"
+                ],
+                "summary": "Add edu",
+                "requestBody": {
+                "description": "Post New todo To Database",
+                "required": true,
+                "content": {
+                    "application/json": {
+                    "schema": {
+                        "$ref": "#/components2/schemas/TodoList"
+                        }
+                    }
+                }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                }
+        
+                }
+            
+            
+            },
+        
+                "/api/user/experience": {
+                    "post": {
+                    "tags": [
+                        "post  API"
+                    ],
+                    "summary": "Add exp",
+                    "requestBody": {
+                    "description": "Post New todo To Database",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                        "schema": {
+                            "$ref": "#/components3/schemas/TodoList"
+                            }
+                        }
+                    }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+            
+                }
+                
+                
+            },
+            
+            "/api/job_post/aws_upload/{user_id}": {
+                "post": {
+                "tags": [
+                    "post  API"
+                ],
+                "summary": "Uploads a file",
+                "requestBody": {
+                "description": "Post New todo To Database",
+                "required": true,
+                "content": {
+                    
+                    "multipart/form-data": {
+                    "schema": {
+                        "$ref": "#/components4/schemas/TodoList"
+                        }
+                    }
+                }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                }
+        
+            }
+            
+            
+        },
+                "/api/shorttime_job": {
+                    "post": {
+                    "tags": [
+                        "job_provider_post api"
+                    ],
+                    "summary": "Add shorttime job",
+                    "requestBody": {
+                    "description": "Post New todo To Database",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                        "schema": {
+                            "$ref": "#/components5/schemas/TodoList"
+                            }
+                        }
+                    }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+
+                }
+                },
+                    "/api/long_job_post": {
+                        "post": {
+                        "tags": [
+                            "job_provider_post api"
+                        ],
+                        "summary": "Add longtime_job",
+                        "requestBody": {
+                        "description": "Post New todo To Database",
+                        "required": true,
+                        "content": {
+                            
+                            "application/json": {
+                            "schema": {
+                                "$ref": "#/components6/schemas/TodoList"
+                                }
+                            }
+                        }
+                        },
+                        "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+
+                    }
+                    
+                    
+                },
+                "/api/longtime_apply_job": {
+                    "post": {
+                    "tags": [
+                        "post  API"
+                    ],
+                    "summary": "apply_longtime_job",
+                    "requestBody": {
+                    "description": "Post New todo To Database",
+                    "required": true,
+                    "content": {
+                        
+                        "application/json": {
+                        "schema": {
+                            "$ref": "#/components7/schemas/TodoList"
+                            }
+                        }
+                    }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+
+                }
+                
+                
+            },
+        "/api/shorttime_apply_job": {
+            "post": {
+            "tags": [
+                "post  API"
+            ],
+            "summary": "apply_longtime_job",
+            "requestBody": {
+            "description": "Post New todo To Database",
+            "required": true,
+            "content": {
+                
+                "application/json": {
+                "schema": {
+                    "$ref": "#/components8/schemas/TodoList"
+                    }
+                }
+            }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }
+
+            }
+
+
+            },
+            "/api/s_like_details": {
+                "post": {
+                "tags": [
+                    "post  API"
+                ],
+                "summary": "apply_longtime_job",
+                "requestBody": {
+                "description": "Post New todo To Database",
+                "required": true,
+                "content": {
+                    
+                    "application/json": {
+                    "schema": {
+                        "$ref": "#/components9/schemas/TodoList"
+                        }
+                    }
+                }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                }
+    
+                }
+    
+    
+                },
+                "/api/l_like_job": {
+                    "post": {
+                    "tags": [
+                        "post  API"
+                    ],
+                    "summary": "apply_longtime_job",
+                    "requestBody": {
+                    "description": "Post New todo To Database",
+                    "required": true,
+                    "content": {
+                        
+                        "application/json": {
+                        "schema": {
+                            "$ref": "#/components10/schemas/TodoList"
+                            }
+                        }
+                    }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+        
+                }
+        
+        
+            },
+                "/api/limit/s_like_apply_check/{user_id}": {
+                        "post": {
+                        "tags": [
+                            "post  API"
+                        ],
+                        "summary": "apply_longtime_job",
+                        "parameters": [{
+                            "name": "user_id",
+                            "in": "path",
+                            "description": "job_apply_count",
+                            "required": true,
+                            "type": "integer",
+                            "schema" : {
+                                "$ref": "#/components/schemas/Id"
+                            }
+                            }],
+                        "requestBody": {
+                        "description": "Post New todo To Database",
+                        "required": true,
+                        "content": {
+                            
+                            "application/json": {
+                            "schema": {
+                                "$ref": "#/components11/schemas/TodoList"
+                                }
+                            }
+                        }
+                        },
+                        "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+            
+                    }
+                },
+                        "/api/limit/L_like_apply_check/{user_id}": {
+                            "post": {
+                            "tags": [
+                                "post  API"
+                            ],
+                            "summary": "user_apply_like_check_show",
+                            "parameters": [{
+                                "name": "user_id",
+                                "in": "path",
+                                "description": "job_apply_count",
+                                "required": true,
+                                "type": "integer"
+                                
+                                }],
+                            "requestBody": {
+                            "description": "Post New todo To Database",
+                            "required": true,
+                            "content": {
+                                
+                                "application/json": {
+                                "schema": {
+                                    "$ref": "#/components11/schemas/TodoList"
+                                    }
+                                }
+                            }
+                            },
+                            "responses": {
+                                "200": {
+                                    "description": "OK",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                },
+                                "404": {
+                                    "description": "NOT FOUND",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                }
+                            }
+                
+                            }
+                
+                
+                            },
+                            
+                            
+                            "/api/job_pro_userinfo_details": {
+                                "post": {
+                                "tags": [
+                                    "job_provider_post api"
+                                ],
+                                "summary": "create_provider_info",
+                                "requestBody": {
+                                "description": "Post New todo To Database",
+                                "required": true,
+                                "content": {
+                                    
+                                    "application/json": {
+                                    "schema": {
+                                        "$ref": "#/components60/schemas/TodoList"
+                                        }
+                                    }
+                                }
+                                },
+                                "responses": {
+                                    "200": {
+                                        "description": "OK",
+                                        "schema": {
+                                        "$ref": "#/components/schemas/TodoList"
+                                        }
+                                    },
+                                    "404": {
+                                        "description": "NOT FOUND",
+                                        "schema": {
+                                        "$ref": "#/components/schemas/TodoList"
+                                        }
+                                    }
+                                }
+            
+                            }
+                            
+                            
+                        },
+                        "/api/profile_details_show": {
+                            "post": {
+                            "tags": [
+                                "job_provider_post api"
+                            ],
+                            "summary": "provider_info_show",
+                            "requestBody": {
+                            "description": "Post New todo To Database",
+                            "required": true,
+                            "content": {
+                                
+                                "application/json": {
+                                "schema": {
+                                    "$ref": "#/components62/schemas/TodoList"
+                                    }
+                                }
+                            }
+                            },
+                            "responses": {
+                                "200": {
+                                    "description": "OK",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                },
+                                "404": {
+                                    "description": "NOT FOUND",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                }
+                            }
+        
+                        }
+                        
+                        
+                    },
+                    "/api/like_apply_slideshow": {
+                        "post": {
+                        "tags": [
+                            "post  API"
+                        ],
+                        "summary": "like_apply_slideshow",
+                        "requestBody": {
+                        "description": "Post New todo To Database",
+
+                        "required": true,
+                       
+                        "content": {
+                            
+                            "application/json": {
+                            "schema": {
+                                "$ref": "#/components70/schemas/TodoList"
+                                }
+                            }
+                        }
+                        },
+                        "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+    
+                    }
+                    
+                    
+                },
+                "/api/rentsee_choice": {
+                    "post": {
+                    "tags": [
+                        " Rental post API"
+                    ],
+                    "summary": "rental seeker choice ",
+                    "requestBody": {
+                    "description": "Post New todo To Database",
+
+                    "required": true,
+                   
+                    "content": {
+                        
+                        "application/json": {
+                        "schema": {
+                            "$ref": "#/rentalsee1/schemas/TodoList"
+                            }
+                        }
+                    }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+
+                }
+                
+                
+            },
+            "/api/rental_see_userinfo_details": {
+                "post": {
+                "tags": [
+                    " Rental post API"
+                ],
+                "summary": "rental seeker info ",
+                "requestBody": {
+                "description": "Post New todo To Database",
+
+                "required": true,
+               
+                "content": {
+                    
+                    "application/json": {
+                    "schema": {
+                        "$ref": "#/rentalsee2/schemas/TodoList"
+                        }
+                    }
+                }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                }
+
+            }
+            
+            
+        },
+        "/api/rental_call_history": {
+            "post": {
+            "tags": [
+                " Rental post API"
+            ],
+            "summary": "rental seeker info ",
+            "requestBody": {
+            "description": "Post New todo To Database",
+
+            "required": true,
+           
+            "content": {
+                
+                "application/json": {
+                "schema": {
+                    "$ref": "#/rentalsee3/schemas/TodoList"
+                    }
+                }
+            }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+            }
+
+        }
+        
+        
+    },
+    "/api/rental_pro_info_get": {
+        "post": {
+        "tags": [
+            " Rental post API"
+        ],
+        "summary": "rental provider info ",
+        "requestBody": {
+        "description": "Post New todo To Database",
+
+        "required": true,
+       
+        "content": {
+            
+            "application/json": {
+            "schema": {
+                "$ref": "#/rentalsee2/schemas/TodoList"
+                }
+            }
+        }
+        },
+        "responses": {
+            "200": {
+                "description": "OK",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            },
+            "404": {
+                "description": "NOT FOUND",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            }
+        }
+
+    }
+    
+    
+    },
+    "/api/rental_pro_product_post": {
+        "post": {
+        "tags": [
+            " Rental post API"
+        ],
+        "summary": "rental provider info ",
+        "requestBody": {
+        "description": "Post New todo To Database",
+
+        "required": true,
+    
+        "content": {
+            
+            "application/json": {
+            "schema": {
+                "$ref": "#/rentalsee4/schemas/TodoList"
+                }
+            }
+        }
+        },
+        "responses": {
+            "200": {
+                "description": "OK",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            },
+            "404": {
+                "description": "NOT FOUND",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            }
+        }
+
+    }
+
+
+    },"/api/rented_products": {
+        "post": {
+        "tags": [
+            " Rental post API"
+        ],
+        "summary": "rental provider info ",
+        "requestBody": {
+        "description": "Post New todo To Database",
+
+        "required": true,
+    
+        "content": {
+            
+            "application/json": {
+            "schema": {
+                "$ref": "#/rentalsee5/schemas/TodoList"
+                }
+            }
+        }
+        },
+        "responses": {
+            "200": {
+                "description": "OK",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            },
+            "404": {
+                "description": "NOT FOUND",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            }
+        }
+
+        }
+
+
+    },
+
+    "/api/job_title":{
+        "get" :{
+            "tags": [
+                "Get  API"
+            ],
+            "summary": "Get All job_title",
+            "parameters": [{
+                "schema" : {
+                    "values":"empty",
+                    "$ref": "#/components/schemas/Id"
+                }
+            }],
+        
+            "responses": {
+            "200": {
+                "description": "OK",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            },
+            "404": {
+                "description": "NOT FOUND",
+                "schema": {
+                "$ref": "#/components/schemas/TodoList"
+                }
+            }
+            }
+            }
+    },
+        "/api/s_apply_details/{user_id}":{
+
+            "get" :{
+                "tags": [
+                    "Get  API"
+                ],
+                "summary": "Get ",
+                "parameters": [{
+                "name": "user_id",
+                "in": "path",
+                "description": "job_apply_count",
+                "required": true,
+                "type": "integer",
+                "schema" : {
+                    "$ref": "#/components/schemas/Id"
+                }
+                }],
+            
+                "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                },
+                "404": {
+                    "description": "NOT FOUND",
+                    "schema": {
+                    "$ref": "#/components/schemas/TodoList"
+                    }
+                }
+                }
+                }
+            },
+            "/api/l_apply_check/{user_id}":{
+
+                "get" :{
+                    "tags": [
+                        "Get  API"
+                    ],
+                    "summary": "Get ",
+                    "parameters": [{
+                    "name": "user_id",
+                    "in": "path",
+                    "description": "job_apply_count",
+                    "required": true,
+                    "type": "integer",
+                    "schema" : {
+                        "$ref": "#/components/schemas/user_id"
+                    }
+                    }],
+                
+                    "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                    }
+                    }
+                },
+                "/api/s_l_like_job/{user_id}":{
+
+                    "get" :{
+                        "tags": [
+                            "Get  API"
+                        ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "s_like_job",
+                        "required": true,
+                        "type": "integer",
+                        "schema" : {
+                            "$ref": "#/components/schemas/user_id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                    }
+                },
+                "/api/l_like_job/{user_id}":{
+
+                    "get" :{
+                        "tags": [
+                            "Get  API"
+                        ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "job_apply_count",
+                        "required": true,
+                        "type": "integer",
+                        "schema" : {
+                            "$ref": "#/components/schemas/Id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                }
+            },
+                            
+            "/api/pro_userinfo/{user_id}":{
+
+                "get" :{
+                    "tags": [
+                        "provider_info_get api"
+                    ],
+                    "summary": "Get ",
+                    "parameters": [{
+                    "name": "user_id",
+                    "in": "path",
+                    "description": "job_apply_count",
+                    "required": true,
+                    "type": "integer",
+                    "schema" : {
+                        "$ref": "#/components/schemas/userId"
+                    }
+                    }],
+                
+                    "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    },
+                    "404": {
+                        "description": "NOT FOUND",
+                        "schema": {
+                        "$ref": "#/components/schemas/TodoList"
+                        }
+                    }
+                }
+                }
+            },
+            "/api/provide_jobs/{user_id}":{
+
+                "get" :{
+                    "tags": [
+                        "provider_info_get api"
+                    ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "job_apply_count",
+                        "required": true,
+                        "type": "integer",
+                        "schema" : {
+                            "$ref": "#/components/schemas/user_id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                }
+            },
+                    "/api/job_user_apply_list/{user_id}":{
+
+                        "get" :{
+                            "tags": [
+                                "provider_info_get api"
+                            ],
+                            "summary": "Get ",
+                            "parameters": [{
+                            "name": "user_id",
+                            "in": "path",
+                            "description": "job_apply_count",
+                            "required": true,
+                            "type": "integer",
+                            "schema" : {
+                                "$ref": "#/components/schemas/user_id"
+                            }
+                            }],
+                        
+                            "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+                        }
+                    },
+
+                    "/api/rent_post_fillter/{product_type}":{
+
+                        "get" :{
+                            "tags": [
+                                "rental Get API"
+                            ],
+                                "summary": "Get ",
+                                "parameters": [{
+                                "name": "product_type",
+                                "in": "path",
+                                "description": "job_apply_count",
+                                "required": true,
+                                "type": "string",
+                                "schema" : {
+                                    "$ref": "#/rentalsee1/schemas/product_type"
+                                }
+                                }],
+                            
+                                "responses": {
+                                "200": {
+                                    "description": "OK",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                },
+                                "404": {
+                                    "description": "NOT FOUND",
+                                    "schema": {
+                                    "$ref": "#/components/schemas/TodoList"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "/api/rental_see_call_history/{user_id}":{
+
+                        "get" :{
+                            "tags": [
+                                "rental Get API"
+                            ],
+                            "summary": "Get ",
+                            "parameters": [{
+                            "name": "user_id",
+                            "in": "path",
+                            "description": "job_apply_count",
+                            "required": true,
+                            "type": "string",
+                            "schema" : {
+                                "$ref": "#/rentalsee2/schemas/user_id"
+                            }
+                            }],
+                        
+                            "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+                    }
+                },
+                "/api/rent_pro_post_show/{user_id}":{
+
+                    "get" :{
+                        "tags": [
+                            "rental Get API"
+                        ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "job_apply_count",
+                        "required": true,
+                        "type": "string",
+                        "schema" : {
+                            "$ref": "#/rentalsee2/schemas/user_id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                    }
+                },
+                "/api/rented_products/{user_id}":{
+
+                    "get" :{
+                        "tags": [
+                            "rental Get API"
+                        ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "job_apply_count",
+                        "required": true,
+                        "type": "string",
+                        "schema" : {
+                            "$ref": "#/rentalsee2/schemas/user_id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                    }
+                },
+                "/api/rent_pro_products/{id}":{
+
+                    "get" :{
+                        "tags": [
+                            "rental Get API"
+                        ],
+                        "summary": "Get ",
+                        "parameters": [{
+                        "name": "id",
+                        "in": "path",
+                        "description": "job_apply_count",
+                        "required": true,
+                        "type": "string",
+                        "schema" : {
+                            "$ref": "#/rentalsee3/schemas/id"
+                        }
+                        }],
+                    
+                        "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        },
+                        "404": {
+                            "description": "NOT FOUND",
+                            "schema": {
+                            "$ref": "#/components/schemas/TodoList"
+                            }
+                        }
+                    }
+                    }
+                },
+
+                "/api/user/{user_id}":{
+                    "put": {
+                        "tags": [
+                            "Update All  API"
+                        ],
+                        "parameters": [{
+                            "name": "user_id",
+                            "in": "path",
+                            "description": "todo id to update",
+                            "required": true,
+                            "type": "integer",
+                            "schema" : {
+                                "$ref": "#/components/schemas/user_id"
+                            }
+                        }],
+                        "summary": "Update Todo",
+                        "requestBody": {
+                        "description": "Update Existing todo On Database",
+                        "required": true,
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/update"
+                                }
+                            }
+                        }
+                        },
+                        "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+                    }
+                
+                }  ,
+                "/api/user_details_update/{user_id}":{
+                    "put": {
+                        "tags": [
+                            "Update All  API"
+                        ],
+                        "parameters": [{
+                            "name": "user_id",
+                            "in": "path",
+                            "description": "all type user profile details update",
+                            "required": true,
+                            "type": "integer",
+                            "schema" : {
+                                "$ref": "#/components1/schemas/user_id"
+                            }
+                        }],
+                        "summary": "Update Todo",
+                        "requestBody": {
+                        "description": "Update Existing todo On Database",
+                        "required": true,
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components1/schemas/update"
+                                }
+                            }
+                        }
+                        },
+                        "responses": {
+                            "200": {
+                                "description": "OK",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            },
+                            "404": {
+                                "description": "NOT FOUND",
+                                "schema": {
+                                "$ref": "#/components/schemas/TodoList"
+                                }
+                            }
+                        }
+                    }
+                
+                }    
+    }
+}
+    
+    
